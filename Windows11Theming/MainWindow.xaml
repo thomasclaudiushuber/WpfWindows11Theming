@@ -1,0 +1,13 @@
+﻿<Window x:Class="Windows11Theming.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Windows 11 Theming" Height="300" Width="400">
+    <StackPanel Margin="10">
+        <TextBlock Margin="5">Vorname:</TextBlock>
+        <TextBox Margin="5"/>
+        <TextBlock Margin="5">Nachname:</TextBlock>
+        <TextBox Margin="5"/>
+        <CheckBox Margin="5">Ist Entwickler?</CheckBox>
+        <Button Content="Speichern" Margin="5"/>
+    </StackPanel>
+</Window>
